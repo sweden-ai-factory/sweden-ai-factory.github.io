@@ -9,7 +9,7 @@ maturity = ["alpha"]
 
 [extra]
 tags = ["mcp", "acp", "tool-calling", "context-management"]
-external_url = "https://github.com/mimer-ai/agentic-101/"
+external_url = "https://github.com/sweden-ai-factory/agentic-101/"
 +++
 
 This lesson provides an introduction to agentic coding concepts, including how to build and work with AI agents, manage context, and use tool-calling protocols like MCP (Model Context Protocol) and ACP (Agent Context Protocol).
