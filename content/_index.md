@@ -1,5 +1,5 @@
 +++
-title = "Welcome to Mimer AI Learning"
+title = "Self-paced learning"
 +++
 
 Redirecting to lessons...

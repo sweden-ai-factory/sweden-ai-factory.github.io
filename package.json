@@ -1,7 +1,7 @@
 {
-  "name": "mimer-ai-site",
+  "name": "learn-sweden-ai-factory",
   "version": "1.0.0",
-  "description": "Mimer AI Factory lessons site",
+  "description": "Learn at Sweden AI Factory",
   "type": "module",
   "scripts": {
     "preprepare": "mkdir -p ./static/css",

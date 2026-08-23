@@ -1,6 +1,6 @@
 +++
 title = "Introduction to Deep Learning"
-description = "Deep learning is a powerful subset of machine learning where computers learn patterns from data, similar to how our brains learn. It uses artificial neural networks - systems inspired by biological neurons that process information through many layers. This beginner-friendly workshop, organized by Mimer in partnership with LUMI AI Factory, provides an introduction to deep learning concepts, workflows, architectures, and practical applications."
+description = "Deep learning is a powerful subset of machine learning where computers learn patterns from data, similar to how our brains learn. It uses artificial neural networks - systems inspired by biological neurons that process information through many layers. This beginner-friendly workshop, organized by the Sweden AI Factory in partnership with LUMI AI Factory, provides an introduction to deep learning concepts, workflows, architectures, and practical applications."
 
 [taxonomies]
 skill = ["ai", "programming"]

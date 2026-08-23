@@ -1,4 +1,4 @@
-# Mimer AI Lessons Site - Project Guide
+# Sweden AI Lessons Site - Project Guide
 
 This is a static site built with [Zola](https://www.getzola.org/), a fast static site generator written in Rust. The site showcases AI learning materials with filtering, search, and external lesson links.
 
@@ -38,8 +38,9 @@ Download the latest release for your platform from [Zola Releases](https://githu
 
 ```bash
 # For Linux x86_64
-wget https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-x86_64-unknown-linux-gnu.tar.gz
-mkdir -p /tmp/zola && tar -xzf zola-v0.22.1-x86_64-unknown-linux-gnu.tar.gz -C /tmp/zola
+version="v0.23.4"  # or latest release
+wget https://github.com/getzola/zola/releases/download/${version}/zola-${version}-x86_64-unknown-linux-gnu.tar.gz
+mkdir -p /tmp/zola && tar -xzf zola-${version}-x86_64-unknown-linux-gnu.tar.gz -C /tmp/zola
 # Add to PATH
 export PATH="/tmp/zola:$PATH"
 ```
@@ -58,6 +59,7 @@ cargo install --git https://github.com/getzola/zola
 ```
 
 Verify installation:
+
 ```bash
 zola --version
 ```
@@ -117,11 +119,13 @@ external_url = "https://learn.mimer-ai.eu/lesson-slug/"
 ```
 
 **Taxonomies:**
+
 - `skill`: Categorizes lessons by skill area (ai, data, programming)
 - `difficulty`: Difficulty level (beginner, intermediate, advanced)
 - `maturity`: Content maturity (alpha, beta, stable)
 
 **Extra Fields:**
+
 - `external_url`: URL to the actual lesson content (hosted externally)
 - `tags`: Additional tags for categorization
 
@@ -146,6 +150,7 @@ external_url = "https://learn.mimer-ai.eu/lesson-slug/"
 ### Template Variables
 
 **Global (config.extra):**
+
 ```toml
 # Color palette for Tailwind CSS classes
 colors = {
@@ -164,6 +169,7 @@ badge_colors = {
 ```
 
 **Page Variables:**
+
 - `page.title`: Page title from front matter
 - `page.description`: Page description from front matter
 - `page.content`: Rendered Markdown content
@@ -177,6 +183,7 @@ badge_colors = {
 ### Filtering
 
 The lessons page (`/lessons/`) includes client-side filtering by:
+
 - Skill (dropdown)
 - Difficulty (dropdown)
 - Maturity (dropdown)
@@ -187,6 +194,7 @@ Filters work together and can be cleared with the "Clear Filters" button.
 ### Taxonomy Badges
 
 Each lesson card and lesson page displays color-coded badges for:
+
 - Skill (purple/blue colors)
 - Difficulty (green/orange/red)
 - Maturity (blue shades)
@@ -210,6 +218,7 @@ Lessons link to external URLs defined in the `external_url` front matter field. 
 ## Configuration
 
 Edit `zola.toml` to modify:
+
 - `base_url`: Site URL
 - `taxonomies`: Taxonomy definitions
 - `[extra]`: Custom variables (badge colors, etc.)
@@ -246,6 +255,7 @@ The `public/` directory contains the static site files ready for deployment.
 ### Build Errors
 
 Run `zola check` to identify configuration issues. Common problems:
+
 - Invalid TOML syntax in front matter
 - Missing required front matter fields
 - Incorrect template syntax
