@@ -23,6 +23,7 @@ index_format = "fuse_javascript" # or "fuse_json"
 
 [extra]
 # Put all your custom variables here
+favicon_svg = "img/SEAIF_favicon_black.svg"
 
 # Define badge colors for Skill, Difficulty Level, and Maturity
 [extra.badge_colors]
