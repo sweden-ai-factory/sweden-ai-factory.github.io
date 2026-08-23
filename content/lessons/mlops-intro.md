@@ -22,4 +22,4 @@ Key takeaways:
 
 ## 2026
 
-{{ youtube(id="NJNNE5wHo", playlist="PLGTUX1Ne84ec") }}
+{{ <youtube id="NJNNE5wHo" playlist="PLGTUX1Ne84ec"/> }}
