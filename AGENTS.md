@@ -1,4 +1,4 @@
-# Mimer AI Lessons Site - Project Guide
+# Sweden AI Lessons Site - Project Guide
 
 This is a static site built with [Zola](https://www.getzola.org/), a fast static site generator written in Rust. The site showcases AI learning materials with filtering, search, and external lesson links.
 

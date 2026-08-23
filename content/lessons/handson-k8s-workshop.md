@@ -1,6 +1,6 @@
 +++
 title = "Hands-on Kubernetes Workshop"
-description = "Materials for the Kubernetes workshop @ MIMER / ENCCS. Learn to deploy and manage containerized applications on Kubernetes."
+description = "Materials for the Kubernetes workshop @ Sweden AI Factory / ENCCS. Learn to deploy and manage containerized applications on Kubernetes."
 
 [taxonomies]
 skill = ["cloud_computing", "devops"]

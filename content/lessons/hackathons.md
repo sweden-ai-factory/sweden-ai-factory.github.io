@@ -1,6 +1,6 @@
 +++
 title = "Hackathons"
-description = "Participate in Mimer AI hackathons and collaborative coding events"
+description = "Participate in Sweden AI Factory hackathons and collaborative coding events"
 
 [taxonomies]
 skill = ["programming", "ai"]
