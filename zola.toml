@@ -58,7 +58,7 @@ bg_interactive_hover = "bg-slate-600"  # Interactive element hover backgrounds
 bg_card = "bg-[#122855]"               # Lesson card background color
 
 # Accent colors
-accent_primary = "bg-blue-600"       # Primary accent buttons (Get Access, Show the lesson)
+accent_primary = "bg-blue-600"       # Primary accent buttons (Learn more button, Show the lesson button)
 accent_primary_hover = "bg-blue-700" # Primary accent button hover state
 accent_text_hover = "text-blue-400"  # Accent text color on hover
 
@@ -94,7 +94,17 @@ url = "https://mimer-ai.eu/"
 # Main header navigation links
 [[extra.nav.main_links]]
 name = "Events & Learning"
-url = "https://mimer-ai.eu/events-and-learning"
+url = "#"
+mobile_url = "https://mimer-ai.eu/events-and-workshops/"
+dropdown = true
+
+[[extra.nav.main_links.sub_links]]
+name = "Events and workshops"
+url = "https://mimer-ai.eu/events-and-workshops/"
+
+[[extra.nav.main_links.sub_links]]
+name = "Self-paced learning"
+url = "/lessons"
 
 [[extra.nav.main_links]]
 name = "Services"

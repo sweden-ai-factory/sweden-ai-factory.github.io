@@ -30,4 +30,4 @@ The course is designed for scientists, engineers, and PhD students who need to s
 
 Organized for CASTIEL2 by ENCCS
 
-{{ youtube(id="nBOXsbPyWxg", playlist="PL6I5OWh2pdwTfkyY3xPWpJoUNPFKDdJxZ") }}
+{{ <youtube id="nBOXsbPyWxg" playlist="PL6I5OWh2pdwTfkyY3xPWpJoUNPFKDdJxZ"/> }}

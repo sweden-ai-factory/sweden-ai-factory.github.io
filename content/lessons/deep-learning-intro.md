@@ -38,4 +38,4 @@ By the end of this course, you will understand:
 
 ## 2026
 
-{{ youtube(id="BZx2gNaPXQA", playlist="PLlkhloJLLllHJzW_8p6z9L6YvuodNmeEg") }}
+{{ <youtube id="BZx2gNaPXQA" playlist="PLlkhloJLLllHJzW_8p6z9L6YvuodNmeEg"/> }}
