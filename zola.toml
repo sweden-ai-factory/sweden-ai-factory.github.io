@@ -195,8 +195,8 @@ name = "Contact us"
 url = "https://mimer-ai.eu/contact-us/"
 
 [[extra.footer.quick_links]]
-name = "Events and learning"
-url = "https://mimer-ai.eu/events-and-learning"
+name = "Events and workshops"
+url = "https://mimer-ai.eu/events-and-workshops"
 
 [[extra.footer.quick_links]]
 name = "All services"
