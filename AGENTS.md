@@ -112,7 +112,7 @@ maturity = ["stable"]
 
 [extra]
 tags = ["python", "machine-learning"]
-external_url = "https://learn.mimer-ai.eu/lesson-slug/"
+external_url = "https://learn.swedenaifactory.se/lesson-slug/"
 +++
 
 # Lesson content in Markdown

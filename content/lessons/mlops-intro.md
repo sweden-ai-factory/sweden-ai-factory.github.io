@@ -9,7 +9,7 @@ maturity = ["beta"]
 
 [extra]
 tags = ["model-deployment", "pipeline", "automation", "reproducibility"]
-external_url = "http://learn.mimer-ai.eu/mlops-intro/"
+external_url = "http://learn.swedenaifactory.se/mlops-intro/"
 +++
 
 MLOps (Machine Learning Operations) is the set of practices that combines machine learning, software engineering, and DevOps to reliably build, deploy, monitor, and maintain ML models in production. It focuses on automation, reproducibility, and governance across the entire ML lifecycle. This event combines interactive lessons with a hands-on lab where participants will apply ideas from the course in practice.
