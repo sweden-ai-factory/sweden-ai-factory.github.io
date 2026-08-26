@@ -12,3 +12,106 @@
 @theme {
     --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/* Myst-style admonition */
+.admonition {
+    @apply p-4 rounded relative border-l-4;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background for dark theme */
+}
+
+.admonition-note {
+    @apply border-blue-500;
+}
+
+.admonition-warning {
+    @apply border-yellow-500;
+}
+
+.admonition-danger {
+    @apply border-red-500;
+}
+
+.admonition-tip {
+    @apply border-green-500;
+}
+
+.admonition-important {
+    @apply border-purple-500;
+}
+
+.admonition-caution {
+    @apply border-orange-500;
+}
+
+.admonition-header {
+    @apply w-full py-2 px-4 rounded-t;
+    margin-bottom: 0;
+    display: flex;
+    position: relative;
+    left: -1rem;
+    top: -1rem;
+    width: calc(100% + 2rem);
+}
+
+.admonition-title {
+    @apply font-bold text-lg;
+}
+
+.admonition-content {
+    @apply text-sm;
+}
+
+.admonition-note > .admonition-header {
+    @apply bg-blue-950 text-blue-200;
+}
+
+.admonition-warning > .admonition-header {
+    @apply bg-yellow-950 text-yellow-200;
+}
+
+.admonition-danger > .admonition-header {
+    @apply bg-red-950 text-red-200;
+}
+
+.admonition-tip > .admonition-header {
+    @apply bg-green-950 text-green-200;
+}
+
+.admonition-important > .admonition-header {
+    @apply bg-purple-950 text-purple-200;
+}
+
+.admonition-caution > .admonition-header {
+    @apply bg-orange-950 text-orange-200;
+}
+
+/* Dark theme specific styles */
+.dark .admonition {
+    background-color: rgba(255, 255, 255, 0.05); /* Semi-transparent background for dark theme */
+}
+
+.dark .admonition-note > .admonition-header {
+    @apply bg-blue-900 text-blue-200;
+}
+
+.dark .admonition-warning > .admonition-header {
+    @apply bg-yellow-900 text-yellow-200;
+}
+
+.dark .admonition-danger > .admonition-header {
+    @apply bg-red-900 text-red-200;
+}
+
+.dark .admonition-tip > .admonition-header {
+    @apply bg-green-900 text-green-200;
+}
+
+.dark .admonition-important > .admonition-header {
+    @apply bg-purple-900 text-purple-200;
+}
+
+.dark .admonition-caution > .admonition-header {
+    @apply bg-orange-900 text-orange-200;
+}
