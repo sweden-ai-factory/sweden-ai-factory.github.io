@@ -9,7 +9,7 @@ maturity = ["alpha"]
 
 [extra]
 tags = ["distributed-training", "multi-gpu", "data-parallel"]
-external_url = "http://learn.mimer-ai.eu/parallel-pytorch"
+external_url = "http://learn.swedenaifactory.se/parallel-pytorch"
 +++
 
 This lesson covers parallel computing techniques with PyTorch, enabling efficient distributed training across multiple GPUs. Learn how to scale your deep learning models and leverage parallel processing power.

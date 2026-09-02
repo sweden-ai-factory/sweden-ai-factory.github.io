@@ -9,7 +9,7 @@ maturity = ["alpha"]
 
 [extra]
 tags = ["autoencoders", "protein-models", "medical-imaging", "vlm"]
-external_url = "http://learn.mimer-ai.eu/gen-ai-for-life-science/"
+external_url = "http://learn.swedenaifactory.se/gen-ai-for-life-science/"
 +++
 
 This material is for researchers and practitioners in life sciences who want to learn about generative AI applications. By the end of this module, learners should understand the basics of generative AI models, learn about applications of generative AI in life sciences, gain hands-on experience with generative AI tools for biological data, and develop skills to implement generative AI solutions for life science problems.
