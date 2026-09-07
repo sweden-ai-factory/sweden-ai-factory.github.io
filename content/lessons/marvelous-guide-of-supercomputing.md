@@ -1,5 +1,5 @@
 +++
-title = "Introduction to Agentic Coding"
+title = "The Marvelous Guide of Supercomputing"
 description = "Introduction to fundamentals of HPC, AI and Cloud in an accessible language."
 
 [taxonomies]
