@@ -151,12 +151,12 @@ url = "https://swedenaifactory.se/news-and-blog/"
 [[extra.nav.main_links]]
 name = "About"
 url = "#"
-mobile_url = "https://swedenaifactory.se/about/about-mimer/"
+mobile_url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
 dropdown = true
 
 [[extra.nav.main_links.sub_links]]
 name = "About Sweden AI Factory"
-url = "https://swedenaifactory.se/about/about-mimer/"
+url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Careers"
@@ -184,7 +184,7 @@ quick_links_title = "Quick links"
 
 [[extra.footer.quick_links]]
 name = "About Sweden AI Factory"
-url = "https://swedenaifactory.se/about/about-mimer/"
+url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
 
 [[extra.footer.quick_links]]
 name = "Careers"
