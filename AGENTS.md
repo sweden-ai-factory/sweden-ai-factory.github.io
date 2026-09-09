@@ -112,7 +112,7 @@ maturity = ["stable"]
 
 [extra]
 tags = ["python", "machine-learning"]
-external_url = "https://learn.swedenaifactory.se/lesson-slug/"
+external_url = "https://learn.SwedenAIFactory.se/lesson-slug/"
 +++
 
 # Lesson content in Markdown

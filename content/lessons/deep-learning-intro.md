@@ -9,7 +9,7 @@ maturity = ["stable"]
 
 [extra]
 tags = ["python", "machine-learning"]
-external_url = "https://learn.swedenaifactory.se/deep-learning-intro/"
+external_url = "https://learn.SwedenAIFactory.se/deep-learning-intro/"
 +++
 
 This beginner-friendly workshop provides a gentle introduction to deep learning fundamentals.

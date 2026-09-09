@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://learn.swedenaifactory.se"
+base_url = "https://learn.SwedenAIFactory.se"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -89,18 +89,18 @@ logo_url = "/"
 
 [extra.nav.header_button]
 name = "Learn More"
-url = "https://swedenaifactory.se/"
+url = "https://SwedenAIFactory.se/"
 
 # Main header navigation links
 [[extra.nav.main_links]]
 name = "Events & Learning"
 url = "#"
-mobile_url = "https://swedenaifactory.se/events-and-workshops/"
+mobile_url = "https://SwedenAIFactory.se/events-and-workshops/"
 dropdown = true
 
 [[extra.nav.main_links.sub_links]]
 name = "Events and workshops"
-url = "https://swedenaifactory.se/events-and-workshops/"
+url = "https://SwedenAIFactory.se/events-and-workshops/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Self-paced learning"
@@ -109,74 +109,74 @@ url = "/lessons"
 [[extra.nav.main_links]]
 name = "Services"
 url = "#"
-mobile_url = "https://swedenaifactory.se/all-services/"
+mobile_url = "https://SwedenAIFactory.se/all-services/"
 dropdown = true
 
 [[extra.nav.main_links.sub_links]]
 name = "All services"
-url = "https://swedenaifactory.se/all-services/"
+url = "https://SwedenAIFactory.se/all-services/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Expert support"
-url = "https://swedenaifactory.se/all-services/expert-support/"
+url = "https://SwedenAIFactory.se/all-services/expert-support/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Trustworthy AI"
-url = "https://swedenaifactory.se/all-services/trustworthy-ai/"
+url = "https://SwedenAIFactory.se/all-services/trustworthy-ai/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Access to compute resources"
-url = "https://swedenaifactory.se/all-services/access-to-compute-resources/"
+url = "https://SwedenAIFactory.se/all-services/access-to-compute-resources/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Data access and management"
-url = "https://swedenaifactory.se/all-services/data-access-and-management/"
+url = "https://SwedenAIFactory.se/all-services/data-access-and-management/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Training and upskilling"
-url = "https://swedenaifactory.se/all-services/training-and-upskilling/"
+url = "https://SwedenAIFactory.se/all-services/training-and-upskilling/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Ecosystem services"
-url = "https://swedenaifactory.se/all-services/ecosystem-services/"
+url = "https://SwedenAIFactory.se/all-services/ecosystem-services/"
 
 [[extra.nav.main_links]]
 name = "Client stories"
-url = "https://swedenaifactory.se/client-stories/"
+url = "https://SwedenAIFactory.se/client-stories/"
 
 [[extra.nav.main_links]]
 name = "News & blog"
-url = "https://swedenaifactory.se/news-and-blog/"
+url = "https://SwedenAIFactory.se/news-and-blog/"
 
 [[extra.nav.main_links]]
 name = "About"
 url = "#"
-mobile_url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
+mobile_url = "https://SwedenAIFactory.se/about/about-sweden-ai-factory/"
 dropdown = true
 
 [[extra.nav.main_links.sub_links]]
 name = "About Sweden AI Factory"
-url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
+url = "https://SwedenAIFactory.se/about/about-sweden-ai-factory/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Careers"
-url = "https://swedenaifactory.se/about/careers/"
+url = "https://SwedenAIFactory.se/about/careers/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Ecosystem"
-url = "https://swedenaifactory.se/about/ecosystem/"
+url = "https://SwedenAIFactory.se/about/ecosystem/"
 
 [[extra.nav.main_links.sub_links]]
 name = "FAQ"
-url = "https://swedenaifactory.se/about/faq/"
+url = "https://SwedenAIFactory.se/about/faq/"
 
 [[extra.nav.main_links.sub_links]]
 name = "Brand assets"
-url = "https://swedenaifactory.se/about/brand-assets/"
+url = "https://SwedenAIFactory.se/about/brand-assets/"
 
 [[extra.nav.main_links]]
 name = "Contact us"
-url = "https://swedenaifactory.se/contact-us/"
+url = "https://SwedenAIFactory.se/contact-us/"
 
 # Footer configuration
 [extra.footer]
@@ -184,24 +184,24 @@ quick_links_title = "Quick links"
 
 [[extra.footer.quick_links]]
 name = "About Sweden AI Factory"
-url = "https://swedenaifactory.se/about/about-sweden-ai-factory/"
+url = "https://SwedenAIFactory.se/about/about-sweden-ai-factory/"
 
 [[extra.footer.quick_links]]
 name = "Careers"
-url = "https://swedenaifactory.se/about/careers/"
+url = "https://SwedenAIFactory.se/about/careers/"
 
 [[extra.footer.quick_links]]
 name = "Contact us"
-url = "https://swedenaifactory.se/contact-us/"
+url = "https://SwedenAIFactory.se/contact-us/"
 
 [[extra.footer.quick_links]]
 name = "Events and workshops"
-url = "https://swedenaifactory.se/events-and-workshops"
+url = "https://SwedenAIFactory.se/events-and-workshops"
 
 [[extra.footer.quick_links]]
 name = "All services"
-url = "https://swedenaifactory.se/all-services/"
+url = "https://SwedenAIFactory.se/all-services/"
 
 [[extra.footer.quick_links]]
 name = "Privacy Policy"
-url = "https://swedenaifactory.se/privacy-policy/"
+url = "https://SwedenAIFactory.se/privacy-policy/"

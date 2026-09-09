@@ -9,7 +9,7 @@ maturity = ["stable"]
 
 [extra]
 tags = ["hackathon", "collaboration", "coding"]
-external_url = "https://learn.swedenaifactory.se/hackathons/"
+external_url = "https://learn.SwedenAIFactory.se/hackathons/"
 +++
 
 # Hackathons
