@@ -4,7 +4,7 @@ description = "Large language models (LLMs) are now ubiquitous in many applicati
 
 [taxonomies]
 skill = ["ai", "programming"]
-difficulty = ["beginner"]
+difficulty = ["intermediate"]
 maturity = ["stable"]
 
 [extra]
