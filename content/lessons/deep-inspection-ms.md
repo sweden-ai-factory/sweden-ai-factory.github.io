@@ -1,9 +1,9 @@
 +++
 title = "DEEP Inspection for Materials Science"
-description = "Inspection and characterization of materials, and detecting defects in materials are fundamental for understanding material properties, ensuring quality control, and accelerating materials development and advanced manufacturing. Instead of conventional approaches requiring extensive expert analysis of complex images, deep learning-based methods provide powerful solutions for automated materials image analysis. This workshop, organized by the Sweden AI Factory, offers a focused, hands-on introduction to deep learning for visual inspection, object detection, and instance segmentation in materials science."
+description = "Learn about visual inspection, object detection, and instance segmentation in materials science using deep learning methods."
 
 [taxonomies]
-skill = ["ai", "programming"]
+skill = ["ai", "materials_science", "deep_learning"]
 difficulty = ["intermediate"]
 maturity = ["stable"]
 
@@ -12,7 +12,8 @@ tags = ["python", "deep-learning"]
 external_url = "https://learn.swedenaifactory.se/DEEP-Inspection-Material-Science/"
 +++
 
-This workshop offers a focused, hands-on introduction to deep learning for visual inspection in materials science.
+
+Inspection and characterization of materials, and detecting defects in materials are fundamental for understanding material properties, ensuring quality control, and accelerating materials development and advanced manufacturing. Instead of conventional approaches requiring extensive expert analysis of complex images, deep learning-based methods provide powerful solutions for automated materials image analysis. This workshop, organized by the Sweden AI Factory, offers a focused, hands-on introduction to deep learning for visual inspection, object detection, and instance segmentation in materials science.
 
 
 ## Key takeaways
@@ -31,6 +32,7 @@ By the end of this course, you will be able to:
 
 - Practitioners and researchers in materials science and industrial inspection
 - Data scientists working on deep learning-based applications
+- Engineers, analysts, and domain specialists who need to move beyond pass/fail classification toward precise spatial localization of features within images
 
 
 ## Prerequisites
