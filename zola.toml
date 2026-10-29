@@ -175,8 +175,12 @@ name = "Brand assets"
 url = "https://SwedenAIFactory.se/about/brand-assets/"
 
 [[extra.nav.main_links]]
-name = "Contact us"
-url = "https://SwedenAIFactory.se/contact-us/"
+name = "Access compute"
+url = "https://swedenaifactory.se/all-services/access-to-compute-resources/"
+
+# [[extra.nav.main_links]]
+# name = "Get Support"
+# url = "https://SwedenAIFactory.se/contact-us/"
 
 # Footer configuration
 [extra.footer]
