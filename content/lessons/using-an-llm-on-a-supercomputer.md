@@ -18,10 +18,10 @@ This short tutorial walks through hosting an LLM on a supercomputer using `llama
 
 ## Key takeaways
 
-- How to compile `llama.cpp` with Ninja for AMD GPUs (gfx90a / MI250X) and adapt the build for NVIDIA GPUs or Vulkan
-- How to request compute resources with `salloc`/`sbatch` and structure a Slurm job script for a model server
-- How to obtain and quantize models via `huggingface-hub` (GGUF format) and serve them with `llama-server`
-- How to open an SSH tunnel so a remote supercomputer model is reachable from `localhost`, like any local endpoint
+- Explain the build steps for `llama.cpp` on AMD GPUs (ROCm/HIP, gfx90a / MI250X) and how the pipeline differs for NVIDIA GPUs or Vulkan targets
+- Request compute resources with `salloc`/`sbatch` and structure a Slurm job script that launches a model server on a compute node
+- Obtain pre-quantized GGUF models from the Hugging Face Hub via `huggingface-hub` and serve them with `llama-server`
+- Reach the served model from your local machine over an SSH tunnel, so a supercomputer-hosted endpoint behaves like any local server
 
 ## Who is this for?
 

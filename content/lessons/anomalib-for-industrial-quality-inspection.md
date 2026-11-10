@@ -18,11 +18,13 @@ This short tutorial shows how to build a visual quality inspection pipeline when
 
 ## Key takeaways
 
-- Why anomaly detection fits sparse-label manufacturing data: train on normal images and flag deviations instead of requiring many labelled examples per defect class
-- How Anomalib removes boilerplate: swap architectures without rewriting the training loop, thanks to ready-made datamodules, model integrations, and evaluation utilities
-- How to train PatchCore, a strong industrial baseline based on a memory bank of pretrained backbone features, on MVTec AD 2 `sheet_metal`
-- How to evaluate on the MVTec AD 2 test split to measure detection and localisation before adapting to your own cameras and parts
-- How to adapt the pipeline to company data: keep the imaging setup stable, mirror the normal/abnormal folder layout, then sweep model and backbone choices
+- Explain why anomaly detection suits industrial inspection data where normal images are plentiful but labelled defects are scarce: learn what "good" looks like and flag deviations, instead of collecting many labelled examples per defect class
+- Use Anomalib's ready-made datamodules, model integrations, and Engine (built on PyTorch Lightning) to assemble the pipeline from data loading through evaluation, and swap architectures without rewriting the training loop
+- Train PatchCore — an industrial baseline that builds a memory bank of patch features from a pretrained backbone (ResNet50 by default) and scores test patches against it — on the MVTec AD 2 `sheet_metal` category
+- Inspect anomaly maps alongside the metrics from the public test split, since visual review of failure cases matters as much as aggregate scores for judging detection and localisation quality before deployment
+- Adapt the pipeline to your own cameras and parts by mirroring the Folder datamodule layout (normal training images, abnormal and normal test images, optional masks), keeping the imaging setup stable, and holding out a truly independent test set from a different time or production batch
+- Judge the limits of the approach: it is strong for screening and localising unusual regions but weak on defect taxonomy, root-cause attribution, and ERP-aligned defect codes, so plan threshold calibration, deployment export, or a supervised second-stage classifier as follow-up steps
+- Organise scaling-up experiments on a GPU cluster by running one SLURM job per experiment and using job arrays to sweep categories, resolutions, and preprocessing choices
 
 ## Who is this for?
 
