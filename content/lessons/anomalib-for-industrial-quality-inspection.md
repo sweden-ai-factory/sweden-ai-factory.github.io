@@ -1,6 +1,6 @@
 +++
 title = "Anomalib for industrial quality inspection"
-description = "Short tutorial on building a visual quality inspection pipeline with fewer labelled defect examples, using Anomalib's ready-made anomaly detection models and the MVTec AD 2 benchmark dataset."
+description = "Short tutorial on building an anomaly-detection quality inspection pipeline that works with few defect examples, using Anomalib and the MVTec AD 2 benchmark dataset."
 
 [taxonomies]
 skill = ["ai", "machine_learning", "materials_science"]

@@ -1,6 +1,6 @@
 +++
 title = "Using an LLM on a supercomputer"
-description = "Short tutorial on compiling and serving llama.cpp on the LUMI supercomputer, from building the backend for AMD GPUs to reaching the model from your own laptop over an SSH tunnel."
+description = "Short tutorial on compiling llama.cpp for AMD GPUs and serving an LLM on the LUMI supercomputer, then accessing it from your laptop over an SSH tunnel."
 
 [taxonomies]
 skill = ["hpc", "ai", "gen_ai"]
