@@ -14,15 +14,15 @@ external_url = "https://swedenaifactory.se/short-tutorials/2026/06/anomalib-for-
 
 ## Overview
 
-This short tutorial shows how to build a visual quality inspection pipeline when labelled defect examples are scarce. Instead of training a classifier on many examples per defect class, you train on mostly-normal images and flag deviations, using Anomalib's ready-made datamodules, model integrations, and evaluation utilities, with a full walkthrough training PatchCore on the MVTec AD 2 `sheet_metal` dataset.
+This short tutorial shows how to build a visual quality inspection pipeline when labelled defect examples are scarce. Instead of training a classifier on many examples per defect class, you train on normal images only and flag deviations, using Anomalib's ready-made datamodules, model integrations, and evaluation utilities, with a full walkthrough training PatchCore on the MVTec AD 2 `sheet_metal` dataset.
 
 ## Key takeaways
 
 - Explain why anomaly detection suits industrial inspection data where normal images are plentiful but labelled defects are scarce: learn what "good" looks like and flag deviations, instead of collecting many labelled examples per defect class
-- Use Anomalib's ready-made datamodules, model integrations, and Engine (built on PyTorch Lightning) to assemble the pipeline from data loading through evaluation, and swap architectures without rewriting the training loop
+- Use Anomalib's ready-made datamodules, model classes, and Engine (built on PyTorch Lightning) to assemble the pipeline from data loading through evaluation, swapping the model or its backbone without changing the training code
 - Train PatchCore — an industrial baseline that builds a memory bank of patch features from a pretrained backbone (ResNet50 by default) and scores test patches against it — on the MVTec AD 2 `sheet_metal` category
 - Inspect anomaly maps alongside the metrics from the public test split, since visual review of failure cases matters as much as aggregate scores for judging detection and localisation quality before deployment
-- Adapt the pipeline to your own cameras and parts by mirroring the Folder datamodule layout (normal training images, abnormal and normal test images, optional masks), keeping the imaging setup stable, and holding out a truly independent test set from a different time or production batch
+- Adapt the pipeline to your own cameras and parts with the Folder datamodule layout — `train/good` for normal training images, `test/good` for normal test images, `test/<defect_type>` for abnormal images, and optional `ground_truth/<defect_type>` masks — keeping the imaging setup stable and holding out a truly independent test set from a different time or production batch
 - Judge the limits of the approach: it is strong for screening and localising unusual regions but weak on defect taxonomy, root-cause attribution, and ERP-aligned defect codes, so plan threshold calibration, deployment export, or a supervised second-stage classifier as follow-up steps
 - Organise scaling-up experiments on a GPU cluster by running one SLURM job per experiment and using job arrays to sweep categories, resolutions, and preprocessing choices
 
