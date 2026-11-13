@@ -13,3 +13,7 @@ external_url = "http://learn.SwedenAIFactory.se/gen-ai-for-life-science/"
 +++
 
 This material is for researchers and practitioners in life sciences who want to learn about generative AI applications. By the end of this module, learners should understand the basics of generative AI models, learn about applications of generative AI in life sciences, gain hands-on experience with generative AI tools for biological data, and develop skills to implement generative AI solutions for life science problems.
+
+## 2026
+
+{{ <youtube id="hDgJBQol9Pg"/> }}

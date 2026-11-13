@@ -13,3 +13,7 @@ external_url = "https://github.com/sweden-ai-factory/handson-k8s-workshop"
 +++
 
 This workshop provides hands-on materials for learning Kubernetes, including installation guides, scripts, and practical exercises for deploying applications.
+
+## 2026
+
+{{ <youtube id="s-9CfRGQhYo"/> }}

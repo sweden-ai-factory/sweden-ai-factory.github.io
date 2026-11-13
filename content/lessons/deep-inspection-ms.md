@@ -44,4 +44,4 @@ By the end of this course, you will be able to:
 
 ## 2026
 
-{{ <youtube id="BZx2gNaPXQA" playlist="PLlkhloJLLllHJzW_8p6z9L6YvuodNmeEg"/> }}
+{{ <youtube id="gXG9va_CZ54"/> }}
