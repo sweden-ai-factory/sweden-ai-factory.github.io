@@ -7,7 +7,7 @@
         <span
             class="px-3 py-0.5 rounded-md text-xs font-medium text-white {{ config.extra.badge_colors.skill[skill_lower] | default(value="bg-indigo-700") }} badge-skill h-6 min-w-[80px] inline-flex items-center justify-center"
             data-skill="{{ skill | lower }}"
-        >{{ skill }}</span>
+        >{{ skill | replace(from="_", to=" ") }}</span>
     {% endfor %}
 </div>
 {% endif %}
@@ -26,7 +26,7 @@
                 <span class="{{ config.extra.colors.text_subtle }} mr-1.5">difficulty:</span>
                 <span
                     class="font-semibold {{ config.extra.badge_colors.difficulty[diff_lower] | default(value="text-emerald-400") }}"
-                >{{ difficulty }}</span>
+                >{{ difficulty | replace(from="_", to=" ") }}</span>
             </span>
         {% endfor %}
     {% endif %}
@@ -42,7 +42,7 @@
                 <span class="{{ config.extra.colors.text_subtle }} mr-1.5">maturity:</span>
                 <span
                     class="font-semibold {{ config.extra.badge_colors.maturity[mat_lower] | default(value="text-blue-500") }}"
-                >{{ maturity }}</span>
+                >{{ maturity | replace(from="_", to=" ") }}</span>
             </span>
         {% endfor %}
     {% endif %}
