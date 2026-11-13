@@ -8,20 +8,22 @@
     <div class="flex flex-wrap gap-2 justify-center mb-8">
         {% include "partials/badges.html" %}
     </div>
-
-    {# Display page content #}
-    <div class="prose dark:prose-invert max-w-4xl mx-auto mb-12 text-left">
-        {{ page.content | safe }}
-    </div>
-
+    
+    {# Show the lesson button #}
     <a
         href="{{ page.extra.external_url | default(value="#") | safe }}"
-        class="inline-flex items-center justify-center {{ config.extra.colors.accent_primary }} hover:{{ config.extra.colors.accent_primary_hover }} {{ config.extra.colors.text_primary }} px-6 py-3 rounded-lg font-medium transition-colors text-lg"
+        class="inline-flex items-center justify-center {{ config.extra.colors.accent_primary }} hover:{{ config.extra.colors.accent_primary_hover }} {{ config.extra.colors.text_primary }} px-6 py-3 rounded-lg font-medium transition-colors text-lg mb-8"
     >
         Show the lesson
         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
         </svg>
     </a>
+
+    {# Display page content #}
+    <div class="prose dark:prose-invert max-w-4xl mx-auto mb-12 text-left">
+        {{ page.content | safe }}
+    </div>
+
 </div>
 {% endblock %}
