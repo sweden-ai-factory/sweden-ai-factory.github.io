@@ -12,6 +12,7 @@
     {# Show the lesson button #}
     <a
         href="{{ page.extra.external_url | default(value="#") | safe }}"
+        target="_blank"
         class="inline-flex items-center justify-center {{ config.extra.colors.accent_primary }} hover:{{ config.extra.colors.accent_primary_hover }} {{ config.extra.colors.text_primary }} px-6 py-3 rounded-lg font-medium transition-colors text-lg mb-8"
     >
         Show the lesson
