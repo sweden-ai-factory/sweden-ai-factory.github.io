@@ -12,8 +12,6 @@ tags = ["pydantic-ai", "mcp", "tool-calling", "memory", "skills", "aitta", "lumi
 external_url = "https://learn.swedenaifactory.se/agentic-ai-lesson/"
 +++
 
-{{ <external/> }}
-
 This hands-on workshop, organized by **LUMI AI Factory** and **Sweden AI Factory**, teaches you to build AI agents that can act, not just answer. We build agents in stages, starting with a plain OpenAI REST API call and ending with multi-agent workflows in Pydantic AI. The models run on the LUMI supercomputer and are served by the Aitta inference service. Our running example is a flight-booking assistant.
 
 ## Overview
