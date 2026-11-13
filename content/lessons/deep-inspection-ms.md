@@ -9,7 +9,7 @@ maturity = ["stable"]
 
 [extra]
 tags = ["python", "deep-learning"]
-external_url = "https://learn.swedenaifactory.se/DEEP-Inspection-Material-Science/"
+external_url = "https://learn.swedenaifactory.se/deep-inspection-material-science/"
 +++
 
 
